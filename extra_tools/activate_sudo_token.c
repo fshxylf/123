@@ -12,6 +12,8 @@
 #include <sys/types.h>
 #include <unistd.h>
 
+
+
 typedef struct statstruct_proc {
   int           pid;                      /** The process id. **/
   char          exName [_POSIX_PATH_MAX]; /** The filename of the executable **/
