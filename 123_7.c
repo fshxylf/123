@@ -53,9 +53,7 @@ typedef struct statstruct_proc {
   int           sigcatch;                 /** The bitmap of catched signals **/
   unsigned int  wchan;  /** 33 **/        /** (too long) **/
   int		sched, 		  /** scheduler **/
-                sched_priority;		  /** scheduler priority */
-  Int.          Ask; 
-  int           adb;
+                sched_priority;		  /** scheduler priority **/
 		
 } procinfo;
 
