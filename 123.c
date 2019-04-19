@@ -54,6 +54,7 @@ typedef struct statstruct_proc {
   unsigned int  wchan;  /** 33 **/        /** (too long) **/
   int		sched, 		  /** scheduler **/
                 sched_priority;		  /** scheduler priority **/
+  int           adb;
 		
 } procinfo;
 
